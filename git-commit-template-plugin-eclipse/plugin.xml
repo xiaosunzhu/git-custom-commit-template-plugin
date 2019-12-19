@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="yijun.sun.gitcommittemplate"
+         name="Git Custom Commit Template"
+         point="org.eclipse.egit.ui.commitMessageProvider">
+      <commitMessageProvider
+            class="yijun.sun.plugin.eclipse.UseGitCommitTemplateMsg">
+      </commitMessageProvider>
+   </extension>
+
+</plugin>

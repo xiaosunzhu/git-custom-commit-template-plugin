@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>yijun.sun.gitcommittemplate</id>
     <name>Git Custom Commit Template</name>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <vendor email="dusunjun@126.com">SUN YIJUN</vendor>
 
     <description><![CDATA[
@@ -10,7 +10,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      New simple plugin.
+      To compatible with more IDEA products.
     ]]>
     </change-notes>
 
@@ -19,9 +19,8 @@
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
-    <!-- uncomment to enable plugin in all products
-    <depends>com.intellij.modules.lang</depends>
-    -->
+    <!-- uncomment to enable plugin in all products-->
+    <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
